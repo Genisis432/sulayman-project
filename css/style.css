@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body {
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #134E4A;
+}
+
+h3 {
+    font-size: 20px;
+    color: #134E4A;
+    margin-bottom: 10px;
+}
+
+.emer-cont {
+    background-color: #F59E0B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1a1a1a;
+    font-weight: bold;
+    height:2em;
+    
+    
+}
+
+header{
+    background-color: #134E4A;
+    height: 80px;
+}
+
+header .container{
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    height: inherit;
+
+}
+
+#nav-text {
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+#emer-text{
+    margin: 0px;
+}
+
+.nav-button-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: white;
+}
+
+.nav-button-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-button-container:hover {
+    border-bottom: white solid 3px;
+    padding: 0px 10px;
+}
+
+
+
+/* Home */
+
+.home-hero {
+    background-color: rgba(17, 94, 89, 0.75);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-image: url(../images/reception.jpg);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    min-height: 350px;
+    height:20em;
+}
+
+#hero-text {
+    max-width: 600px;
+    
+}
+
+.hero-title {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.hero-description {
+    color: white;
+    text-align: center;
+    padding: 0px 20px 20px 20px;
+    margin: 0;
+}
+
+.hero-link-container{
+    background-color: #20C997 ;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    width:200px;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+
+.hero-link-container:hover{
+    background-color: #134E4A;
+    color: #ffffff;
+    transform: scale(0.96);
+}
+
+#hero-link{
+    color: black;
+    font-weight: bolder;
+    text-shadow: none;
+    text-decoration: none;
+}
+
+/* button {
+    border: none;
+    background-color: #20C997;
+    border-radius: 5px;
+    font-weight: 900;
+    color: #000000;
+    padding: 12px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #134E4A;
+    color: #ffffff;
+    transform: scale(0.96);
+} */
+
+.service {
+    background-color: #ffffff;
+    padding: 20px 100px 0px 100px;
+    
+}
+
+.service-title {
+    border-bottom: 2px rgb(7, 192, 87) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.card-container {
+    background-color: #CCFBF1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.general-med-card {
+    background-color: #CCFBF1;
+    border-radius: 8px;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+}
+
+.out-pat-card {
+    background-color: #CCFBF1;
+    border-radius: 8px;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+}
+
+.pat-care {
+    width: 250px;
+    height: 275px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recep {
+    width: 280px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.why-choose {
+    background-color: white;
+    padding: 20px 100px 20px 100px;
+
+}
+
+.choose-title {
+    border-bottom: 2px rgb(7, 192, 87) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.choose-cards {
+    padding: 20px;
+    background-color: #CCFBF1;
+    border-left: 4px solid #0D9488;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.choose-cards-title {
+    color: #0D9488;
+}
+
+.visit-us {
+    background-color: #fff;
+    padding: 0px 85px 20px 85px;
+    margin-bottom: 40px;
+}
+
+.visit-container {
+    background-color: #CCFBF1;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.visit-title {
+    border-bottom: 2px rgb(7, 192, 87) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+/* About */
+
+.about-hero{
+    height:10em;
+    background-color: #0D9488;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.story{
+    padding: 20px 100px;
+    background-color: white;
+}
+
+.story-title{
+    border-bottom: 2px rgb(7, 122, 59) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+#cli-build-img{
+    margin-top: 10px;
+    width:80%;
+    border-radius: 8px;
+    padding-bottom: 20px;
+
+}
+
+.facilities {
+    padding: 20px 100px;
+    background-color: white;
+}
+
+.facilities-title{
+    border-bottom: 2px rgb(7, 122, 59) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.facilities-list{
+    padding-left: 20px;
+}
+
+.facilities-list-items{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.meet-docs{
+    padding: 10px 100px 0px 100px;
+    background-color: white;
+}
+
+.meet-docs-title{
+    border-bottom: 2px rgb(7, 122, 59) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.docs-profile-container{
+    background-color: #CCFBF1;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.docs-profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    object-fit: cover;
+}
+
+.commitment{
+    padding: 0px 85px 20px 85px;
+    background-color: white;
+}
+
+.commitment-text-container{
+    background-color: #CCFBF1;
+    padding: 60px 15px 20px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.commitment-title{
+    border-bottom: 2px rgb(7, 122, 59) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.commitment-list{
+    padding-left: 20px;
+}
+
+.commitment-list-items{
+    padding: 5px 0px;
+}
+
+/* Contact */
+
+.contact-hero{
+    height:10em;
+    background-color: #0D9488;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.book-app{
+
+    padding: 20px 100px;
+    background-color: white;
+}
+
+.book-title{
+    border-bottom: 2px rgb(7, 192, 87) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+
+.form-inputs{
+    margin-bottom: 15px;
+
+}
+
+label{
+    font-weight: 900;
+}
+
+input{
+    width:100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 148, 136, 0.25);
+    padding-left: 10px;
+}
+
+::placeholder{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea::placeholder{
+    padding: 1px 10px 5px 1px;
+}
+
+select{
+    width:100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 148, 136, 0.25);
+    color: black;
+    padding-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea{
+    width:100%;
+    height:100px;
+    border-radius: 5px;
+    border: 2px solid rgb(13, 148, 136, 0.25);
+    padding: 5px 10px 5px 10px;
+}
+
+button{
+width:25%;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #0D9488;
+border-radius: 5px ;
+border: none;
+
+}
+
+button:active{
+    background-color: #134E4A;
+    color: #ffffff;
+    transform: scale(0.96);
+}
+
+#button-text{
+    margin: 0px;
+    
+    color: white;
+}
+
+.contact-info{
+    padding:20px 90px;
+    
+}
+
+.contact-container{
+    background-color: #CCFBF1;
+    padding: 40px 15px 25px 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.contact-title{
+    border-bottom: 2px rgb(7, 192, 87) solid;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.contact-info-open-hours-title{
+    color: #0D9488;
+}
+
+.contact-info-emer-title{
+    color: #0D9488;
+    margin-top: 15px;
+}
+
+.contact-open-hours-list{
+    padding:0px 20px;
+}
+
+.contact-open-hours-list-items{
+    padding: 5px 0px;
+    
+}
+
+/* Footer */
+footer {
+    background-color: #134E4A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.foot-text {
+    color: lightgray;
+}
+
+span {
+    color: white;
+}
