@@ -500,3 +500,147 @@ footer {
 span {
     color: white;
 }
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Emergency bar */
+    .emer-cont {
+        height: auto;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    #emer-text {
+        font-size: 0.9em;
+    }
+
+    /* Header / Nav */
+    header {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    header .container {
+        height: auto;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 15px;
+        gap: 70px
+    }
+
+    #nav-text {
+        font-size: 1.5em;
+        max-width: 40%;
+    }
+
+    .nav-button-list {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        font-size: 0.95em;
+        max-width: 35%;
+        row-gap: 10px;
+    }
+
+    /* Home hero */
+    .home-hero {
+        height: auto;
+        min-height: unset;
+        padding: 40px 15px;
+    }
+
+    #hero-text {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        font-size: 26px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+        padding: 0 5px 20px 5px;
+    }
+
+    .hero-link-container {
+        width: 180px;
+        height: 45px;
+    }
+
+    /* Services */
+    .service {
+        padding: 20px 15px 0 15px;
+    }
+
+    .general-med-card,
+    .out-pat-card {
+        padding: 20px 15px;
+    }
+
+    .pat-care,
+    .recep {
+        width: 100%;
+        height: 220px;
+    }
+
+    /* Why choose */
+    .why-choose {
+        padding: 20px 15px;
+    }
+
+    /* Visit us */
+    .visit-us {
+        padding: 0 15px 20px 15px;
+    }
+
+    /* About hero / Contact hero */
+    .about-hero,
+    .contact-hero {
+        height: auto;
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    /* About page sections */
+    .story,
+    .facilities,
+    .meet-docs,
+    .commitment {
+        padding: 20px 15px;
+    }
+
+    #cli-build-img {
+        width: 100%;
+    }
+
+    .commitment-text-container {
+        padding: 30px 15px 20px 15px;
+    }
+
+    /* Contact page */
+    .book-app {
+        padding: 20px 15px;
+    }
+
+    .contact-info {
+        padding: 20px 15px;
+    }
+
+    button {
+        width: 75%;
+    }
+
+    /* Footer section*/
+    .foot-text{
+        text-align: center;
+    }
+}
